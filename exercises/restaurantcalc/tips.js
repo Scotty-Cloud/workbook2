@@ -16,4 +16,4 @@ console.log("Total Due is " + totalDue);
 var tipPercentage = 8;
 var findTip = (totalDue * tipPercentage) / 100;
 
-console.log("The tip amount is " + findTip);
+console.log("The tip amount is " + findTip.toFixed(2));
