@@ -1,5 +1,7 @@
-var salary = 100000;
+var salary = 800000;
 
-var taxed = salary * 0.23;
+var taxed = 23/100;
 
-console.log(taxed);
+var totalTax = salary * taxed;
+
+console.log(totalTax.toFixed(2));
