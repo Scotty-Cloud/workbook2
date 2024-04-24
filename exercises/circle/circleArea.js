@@ -1,6 +1,6 @@
-const radius = 10;
+var radius = 10;
 
-const areaOfCircle = () => {
+var areaOfCircle = () => {
 
    return Math.PI * radius * radius;
 
