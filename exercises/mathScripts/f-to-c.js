@@ -5,4 +5,4 @@ var tempInFahrenheit = 100;
 
 var tempInCelsius = fahrenheitToCelsius(tempInFahrenheit);
 
-console.log(tempInCelsius.toFixed(2));
+console.log("the temperature in fahrenheit converted from celsius is " + tempInCelsius.toFixed(2));
