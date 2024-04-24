@@ -11,13 +11,14 @@
 // console.log(distance.toFixed(2));
 
 var x1= 10;
-var x2= 20;
-var y1= 30;
+var y1= 20;
+var x2= 30;
 var y2= 40;
 
 var dX = x2 - x1;
+
 var dY = y2 - y1;
 
-var dist = Math.sqrt((dX **2) + (dY **2))
+var dist = Math.sqrt(dX * dX + dY * dY)
 
-console.log(dist);
+console.log(dist.toFixed(2));
