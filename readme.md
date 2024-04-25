@@ -1,3 +1,3 @@
 # Workbook 2
 
-## code examples & exercises for LTC/YearUp
+code examples & exercises for workbook 2
