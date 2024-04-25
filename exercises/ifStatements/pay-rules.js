@@ -17,7 +17,7 @@ if (hoursWorked <= 40) {
 console.log(`Gross pay: $${grossPay.toFixed(2)}`);
 
 
-// Instructor Craig solution (fixed)
+// Instructor Craig solution 
 // var hoursWorked = 45;
 
 // var regularPayRate = 17.3;
