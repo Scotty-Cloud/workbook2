@@ -36,3 +36,4 @@ console.log(isLeapYear(1999));
 console.log(isLeapYear(2000));
 
 console.log(isLeapYear(2012));
+
