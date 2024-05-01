@@ -1,17 +1,17 @@
 // solution 1
-"use strict";
+// "use strict";
 
-function init() {
-  const greetBtn = document.getElementById("greetBtn");
+// function init() {
+//   const greetBtn = document.getElementById("greetBtn");
 
-  greetBtn.onclick = onGreetBtnClicked;
-}
+//   greetBtn.onclick = onGreetBtnClicked;
+// }
 
-function onGreetBtnClicked() {
-  const name = document.getElementById("nameField").value;
+// function onGreetBtnClicked() {
+//   const name = document.getElementById("nameField").value;
 
-  alert(`Hello, ${name}!`);
-}
+//   alert(`Hello, ${name}!`);
+// }
 
 // window.onload = init;
 
@@ -28,18 +28,18 @@ function onGreetBtnClicked() {
 // }
 
 // solution 3
-// "use strict";
+"use strict";
 
-// function init() {
-//   const greetBtn = document.getElementById("greetBtn");
+function init() {
+  const greetBtn = document.getElementById("greetBtn");
 
-//   greetBtn.addEventListener("click", onGreetBtnClicked);
-// }
+  greetBtn.addEventListener("click", onGreetBtnClicked);
+}
 
-// function onGreetBtnClicked(event) {
-//   const name = document.getElementById("nameField").value;
+function onGreetBtnClicked(event) {
+  const name = document.getElementById("nameField").value;
 
-//   alert(`Hello, ${name}!`);
-// }
+  alert(`Hello, ${name}!`);
+}
 
-// window.onload = init;
+window.onload = init;
